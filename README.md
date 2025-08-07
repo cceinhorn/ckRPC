@@ -70,9 +70,9 @@ cd bin
 ```
 
 # 测试结果
-![testprovider](https://github.com/cceinhorn/ckRPC/blob/master/rpcprovider.png)
+![testprovider](https://github.com/cceinhorn/ckRPC/blob/main/rpcprovider.png)
 
-![testconsumer](https://github.com/cceinhorn/ckRPC/blob/master/rpcconsumer.png)
+![testconsumer](https://github.com/cceinhorn/ckRPC/blob/main/rpcconsumer.png)
 
 # 致谢
 [muduo](https://github.com/chenshuo/muduo)
