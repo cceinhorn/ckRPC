@@ -1,10 +1,10 @@
 # RPC
-本项目在分布式环境下完成本地服务在 RPC 节点上的注册、发布与远程调用；项目构建自定义通信协议与服务注册中心，集成日志系统，设计高并发网络通信模型，具备高性能与良好的扩展性。
+本项目在分布式环境下完成本地服务在 RPC 节点上的注册、发布与远程调用；项目构建自定义通信协议与服务注册中心，集成日志系统，设计高并发网络通信模型，具备高性能与良好的扩展性
 
 # 功能
-* 利用protobuf实现数的消息的序列化与反序列化；
-* 利用zookeeper作为服务中间件，实现分布式部署中的服务注册与发现；
-* 良好的watcher机制监听节点变化；
+* 利用 protobuf 实现数的消息的序列化与反序列化；
+* 利用 zookeeper 作为服务中间件，实现分布式部署中的服务注册与发现；
+* 良好的 watcher 机制监听节点变化；
 * 配备自定义的异步日志功能；
 
 # 运行环境
@@ -17,7 +17,7 @@
 // 基础工具
 sudo apt-get install -y wget cmake build-essential unzip
 ```
-muduo安装需要依赖boost
+muduo 安装需要依赖 boost
 
 [boost](https://www.boost.org/releases/latest/)
 ```shell
@@ -39,7 +39,7 @@ sudo apt install zookeeperd
 ```
 .
 ├── bin             可执行文件
-│   └── test.conf   ip:port配置文件
+│   └── test.conf   ip:port 配置文件
 ├── include         框架头文件
 │   └─...
 ├── src             框架源代码
