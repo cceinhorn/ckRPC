@@ -78,36 +78,3 @@ cd bin
 [muduo](https://github.com/chenshuo/muduo)
 
 [webserver](https://github.com/markparticle/WebServer)  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Dependencies:
-
-muduo     // https://github.com/chenshuo/muduo
-
-boost     // https://www.boost.org/releases/latest/
-
-protobuf  // https://github.com/protocolbuffers/protobuf
-
-zookeeper // https://zookeeper.apache.org/releases.html
-  
